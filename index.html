@@ -39,8 +39,8 @@
 
 <script type="module" src="main.js"></script>
 
-<script>
-  navigator.serviceWorker.register("serviceWorker.js");
+<script defer>
+  window.onload = () => navigator.serviceWorker.register("serviceWorker.js");
 </script>
 
 </html>
