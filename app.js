@@ -27,5 +27,3 @@ function addImages (){
 }
 
 export {addImages}
-
-/*                                                                                                    */
