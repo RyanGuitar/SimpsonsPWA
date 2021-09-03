@@ -1,4 +1,4 @@
-const staticBackground = "background-v2";
+const staticBackground = "background-v3";
 const assets = [
   "/",
   "/index.html",
@@ -6,7 +6,6 @@ const assets = [
   "/app.js",
   "/main.js",
   "/favicon.jpg",
-  "/serviceWorker.js",
   "/images/background.jpeg",
   "/images/bart.webp",
   "/images/dog.webp",
