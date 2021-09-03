@@ -26,6 +26,11 @@
     <link rel="canonical" href="https://ryanguitar.github.io/background">
     <link rel="icon" type="image/jpg" href="favicon.jpg">
     <link rel="stylesheet" href="styles.css">
+    <script type="module">
+        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+        const el = document.createElement('pwa-update');
+        document.body.appendChild(el);
+     </script>
 </head>
 
 <body>
@@ -35,12 +40,8 @@
             </div>
        </div>
     </div> 
+
+    <script type="module" src="main.js"></script>
+
 </body>
-
-<script type="module" src="main.js"></script>
-
-<script>
-  navigator.serviceWorker.register("serviceWorker.js");
-</script>
-
 </html>
