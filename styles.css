@@ -71,3 +71,6 @@ body {
 .faded {
     opacity:0;
 }
+#cat {
+    background:blue;
+}
